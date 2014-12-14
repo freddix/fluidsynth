@@ -1,7 +1,7 @@
 Summary:	RT synthesizer
 Name:		fluidsynth
 Version:	1.1.6
-Release:	4
+Release:	5
 License:	LGPL
 Group:		Applications/Sound
 Source0:	http://downloads.sourceforge.net/fluidsynth/%{name}-%{version}.tar.gz
@@ -21,7 +21,7 @@ BuildRequires:	libsndfile-devel
 BuildRequires:	libtool
 BuildRequires:	libvorbis-devel
 BuildRequires:	pkg-config
-BuildRequires:	pulseaudio-devel
+#BuildRequires:	pulseaudio-devel
 BuildRequires:	xorg-libXi-devel
 BuildRequires:	xorg-libXtst-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
